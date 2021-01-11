@@ -1,4 +1,4 @@
-##Corona Virus Tracker
+## Corona Virus Tracker
 
 this project was based due to the need most people had during covid-19 eura, how to get an actual data of people who have confirmed
 covid-19 positive, recovered as well as deaths. 
