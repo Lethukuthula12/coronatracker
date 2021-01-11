@@ -1,0 +1,59 @@
+.navigation-bar{
+  overflow: hidden;
+}
+
+.contact-info-content, .contact-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-links li{
+padding: 0 3rem;
+list-style: none;
+height: 20px;
+}
+.contact-info-content span{
+  text-align: center;
+  padding-top: 1rem;
+  padding-left: 3rem;
+}
+.contact-info hr{
+padding: 0;
+margin: 0;
+height: 1px;
+background-color: #ccc;
+border: none;
+
+}
+
+.contact-info h1 {
+padding-left: 3rem;
+padding-top: 0;
+position: relative;
+}
+.navbar{
+  padding: 0;
+  margin: 0;
+}
+.contact-info input {
+  padding: 1rem 1rem;
+  border: none;
+}
+.navbar-links{
+  padding-top:1rem;
+}
+
+.nav-links:link{
+text-decoration: none;
+
+
+}
+.nav-links{
+  color:black;
+}
+.nav-links:hover{
+color: var(--second-color);
+}
+.active{
+  color: var(--second-color);
+}

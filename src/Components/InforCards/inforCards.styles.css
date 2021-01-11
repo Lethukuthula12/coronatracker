@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:  4rem 3rem;
+  width: 100%;
+}
+.front-card{
+  background-color: teal;
+  color: #000;
+}
+
+.card{
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  height: 400px;
+  width:300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 1rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  background-color: burlywood;
+}
+.image{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    background: center;
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card h1{
+  padding-top: 1rem;
+  z-index: 10;
+  color: black;
+  font-size: 19px;
+  font-family: 'Andika New Basic',
+  sans-serif;
+}
+.card p{
+  font-family: 'Andika New Basic',
+  sans-serif;
+  font-size: 15px;
+  margin: 0 2rem;
+}
+@media(max-width: 770px) {
+.card{
+  flex-direction: column;
+}
+.container{
+  flex-direction: column;
+   padding: 0;
+}
+}
