@@ -7,7 +7,7 @@ import CountryPicker from "./Components/CountryPicker/Country-picker.component";
 import {fetchData} from "./API"
 import InforCard from "./Components/InforCards/inforcard"
 
-import styles from "./App.module.css";
+import styles from "./module.css";
 
 class App extends React.Component{
 state = {
