@@ -3,6 +3,8 @@
   justify-content: center;
   width:65%;
   margin-bottom: 6rem;
+  position: relative;
+  margin: auto;
 }
 
 @media(max-width: 770px) {

@@ -1,4 +1,13 @@
 .formControl{
-  width:60%;
+  width:40%;
   margin-bottom: 20px !important;
+}
+.countryPicker{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+@media(max-width: 770px) {
+
 }
